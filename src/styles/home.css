@@ -103,3 +103,19 @@ input{
     grid-area: d;
     background-image: url("https://artfiles.alphacoders.com/565/56528.jpg");
 }
+
+.ulist{
+    background-color: #3498db;
+    margin-top: 0px;
+    padding: 2px;
+}
+
+li{
+    list-style: none;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background: -webkit-gradient( linear, left top, left bottom, from(#5f9fad80), 
+    color-stop(0.7, #2093ab2e), color-stop(0.92, #0104042e), to(#ececec2e));
+    align-self: flex-start;
+}

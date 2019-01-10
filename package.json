@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
     "bluebird": "^3.5.1",
     "jest-cli": "^23.4.2",
-    "jest-json-reporter": "^1.2.2"
+    "jest-json-reporter": "^1.2.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
   },
   "devDependencies": {
     "babel-plugin-react-html-attrs": "^2.1.0",

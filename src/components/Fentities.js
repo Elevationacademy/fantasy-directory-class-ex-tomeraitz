@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, Redirect  } from 'react-router-dom'
 import '../styles/fentity-directory.css'
 
 class Fentities extends Component {
@@ -13,10 +13,12 @@ class Fentities extends Component {
                 {<div id="fentities-container">
                     {fentities.map(f => {
                         return (
-                            <div className="mini" key={f.name}>
-                                <img className="directory-img" src={f.imgUrl} alt="" />
-                                <span>{f.name}</span>
-                            </div>
+                            <Link to={`/directory/${fentitiesCategory}/${f.name}`}>
+                                <div className="mini" key={f.name}>
+                                    <img className="directory-img" src={f.imgUrl} alt="" />
+                                    <span>{f.name}</span>
+                                </div>
+                            </Link>
                         )
                     })}
                 </div> }
